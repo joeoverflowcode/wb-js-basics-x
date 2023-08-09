@@ -132,6 +132,8 @@ console.log(add(2,3))
 //storing the result in the variable mathSum.
 
 //Code Here
+let mathSum = add(3,4)
+console.log(mathSum)
 
 //////////////////PROBLEM 12////////////////////
 
@@ -143,6 +145,21 @@ console.log(add(2,3))
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+function faveColorFinder(color){
+  if (color === 'red'){
+    return 'red is a great colour'
+  }
+    else if(color === 'green') {
+      return 'green is a pretty nice choice'
+    }
+    else if (color === 'black'){
+      return 'Wow, very original'
+    }
+    else {
+      return 'Look, I do not know how to tell you this but you need to reconsider your life choices, get yourself together'
+  }
+}
+  console.log(faveColorFinder("red"))
 
 //////////////////PROBLEM 13////////////////////
 
@@ -166,28 +183,32 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+let globalScope = ['cute'];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+let bathroomScope = ['squeaky'];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+let bathtubScope = ['nautical'];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+let pondScope = ['fluffy'];
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
 // Code Here
-
+let age = 37
+console.log(age)
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-
+age += 1
+console.log(age)
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+age = 999
+console.log(age)
